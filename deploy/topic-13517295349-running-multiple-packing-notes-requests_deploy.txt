@@ -1,0 +1,9 @@
+# Define the list of files in sequence appropriate for deployment in all environments
+# The "pipe (|)" symbol is used as the filed separator.
+# objectTypeShortName|GITHUB_PATHTOFILENAME|TARGET_USER_NAME
+# Initial Version - Done for JJ#13517295349
+G_PKG_SCF|ont/sql/GE_ONT_GBL_DEL_NOTE_WRAP_PKG.pks|GE_ONT
+G_PKG_BDY|ont/sql/GE_ONT_GBL_DEL_NOTE_WRAP_PKG.pkb|GE_ONT
+SYN_MGR|ont/sql/GE_ONT_GBL_DEL_NOTE_WRAP_PKG_SYN.syn|APPS_GE_ONT
+A_CON_PRG|ont/bin/GE_ONT_GBL_MLTPL_DEL_NOTE_WRAP.ldt|
+G_SQL_S_MGR|ont/sql/GE_ONT_GBL_MLTPL_DEL_NOTE_WRAP_GROUP_ASSIGN.sql|APPS_GE_ONT
